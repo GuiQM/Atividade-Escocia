@@ -1,0 +1,424 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+main    {
+    width: 100%;
+    height: 100%;
+}
+
+p, h1   { 
+    font-family:sans-serif;
+ }
+
+#imgTopo {
+    width: 3rem;
+    height: auto;
+    margin-top: 0.4rem;
+    margin-left: -5.5rem;
+}
+
+
+header a.nav-link:hover {
+    color: rgb(200, 200, 200) !important;
+    /* Cinza claro no hover */
+    text-decoration: underline;
+}
+
+.carousel-item {
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+#imgMuseu {
+    margin-left: 7%;
+    width: 40%;
+    height: auto;
+}
+
+#imgComida1 {
+    margin-left: 7%;
+    width: 23%;
+    height: auto;
+}
+
+#imgEsporte {
+    margin-left: 7%;
+    width: 30%;
+    height: auto;
+}
+
+#imgGeografia {
+    margin-left: 7%;
+    width: 30%;
+    height: auto;
+}
+
+#imgPolitica {
+    margin-left: 7%;
+    width: 30%;
+    height: auto;
+}
+
+#imgFestas  {
+    margin-left: 7%;
+    width: 30%;
+    height: auto;
+}
+
+#imgIdioma  {
+    margin-left: 7%;
+    width: 30%;
+    height: auto;
+}
+
+#imgCuriosidade {
+    margin-left: 7%;
+    width: 30%;
+    height: auto;
+}
+
+/*----------------------*/
+
+#artes {
+    position: relative;
+    margin-left: 2%;
+}
+
+#culinaria {
+    position: relative;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+#esportes {
+    position: relative;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+#festas {
+    position: relative;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+#idioma {
+    position: relative;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+#geografia {
+    position: relative;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+#politica {
+    position: relative;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+#curiosidade    {
+    position: relative;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+#referencias    {
+    text-align: center;
+    margin-top: 3%;
+}
+
+li  {
+    list-style: none;
+}
+
+/*----------------------------------------------------*/
+
+#divTextoArtes {
+    margin-left: -10%;
+    gap: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    
+}
+
+#h1Artes    {
+    margin-left: 54.4%;
+    width: 44%;
+    text-align: center;
+}
+
+#pArtes {
+    padding: 1%;
+    width: 40%;
+    align-content: center;
+    text-align: justify;
+    background-color: rgb(209, 209, 206);
+    border-radius: 8px;
+}
+
+/*----------------------------------------------------*/
+#divTextoCulinaria {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10%;
+    gap: 10%;
+}
+
+#h1Culinaria    {
+    text-align: center;
+    width: 44%;
+}
+
+#pCulinaria {
+    padding: 1%;
+    width: 40%;
+    align-content: center;
+    text-align: justify;
+    background-color: rgb(209, 209, 206);
+    border-radius: 8px;
+}
+
+/*----------------------------------------------------*/
+
+#divTextoEsportes {
+    margin-left: -10%;
+    gap: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+#h1Esportes {
+    text-align: center;
+    margin-left: 48.9%;
+    width: 44%
+}
+
+#pEsportes {
+    padding: 1%;
+    width: 40%;
+    align-content: center;
+    text-align: justify;
+    background-color: rgb(209, 209, 206);
+    border-radius: 8px;
+}
+
+/*------------------------------------------------------------------*/
+
+#divTextoFestas {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10%;
+    gap: 10%;
+}
+
+#h1Festas   {
+    text-align: center;
+    width: 44%;
+}
+
+#pFestas {
+    padding: 1%;
+    width: 40%;
+    background-color: rgb(209, 209, 206);
+    border-radius: 8px;
+    text-align: justify;
+}
+
+/*------------------------------------------------------------------*/
+
+#divTextoIdioma {
+    margin-left: -10%;
+    gap: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+#h1Idioma   {
+    text-align: center;
+    margin-left: 48.9%;
+    width: 44%;
+}
+
+#pIdioma {
+    padding: 1%;
+    width: 40%;
+    background-color: rgb(209, 209, 206);
+    border-radius: 8px;
+    text-align: justify;
+}
+
+/*------------------------------------------------------------------*/
+
+#divTextoGeografia {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10%;
+    gap: 10%;
+}
+
+#h1Geografia    {
+    text-align: center;
+    width: 44%;
+}
+
+#pGeografia {
+    padding: 1%;
+    width: 40%;
+    align-content: center;
+    background-color: rgb(209, 209, 206);
+    border-radius: 8px;
+    text-align: justify;
+}
+
+/*------------------------------------------------------------------*/
+
+#divTextoPolitica {
+    margin-left: -10%;
+    gap: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+#h1Politica  {
+    text-align: center;
+    margin-left: 48.9%;
+    width: 44%;
+}
+
+#pPolitica {
+    padding: 1%;
+    width: 40%;
+    align-content: center;
+    height: 30%;
+    background-color: rgb(209, 209, 206);
+    border-radius: 8px;
+    text-align: justify;
+}
+
+/*------------------------------------------------------------------*/
+
+#divTextoCuriosidade {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10%;
+    gap: 10%;
+}
+
+#h1Curiosidade    {
+    text-align: center;
+    width: 44%;
+}
+
+#pCuriosidade {
+    padding: 1%;
+    width: 40%;
+    align-content: center;
+    height: 30%;
+    background-color: rgb(209, 209, 206);
+    border-radius: 8px;
+    text-align: justify;
+}
+
+/*------------------------------------------------------------------*/
+
+#imagensH1 {
+    text-align: center;
+}
+
+h1  {
+    font-size: 300%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.parallax   {
+
+    height: 90%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pt1    {
+    background-image: url("https://wallpapers.com/images/hd/scotland-1920-x-1080-background-onimotgwrvoegbp4.jpg");
+    margin-top: 2%;
+}
+
+.pt2    {
+    background-image: url("https://images.pexels.com/photos/32314227/pexels-photo-32314227/free-photo-of-catedral-historica-de-glasgow-em-um-dia-sombrio.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+
+.pt3    {
+    background-image: url("https://wallpapers.com/images/hd/fundode-tela-da-escocia-1800-x-1125-zhck9kkxpz9k95i2.jpg");
+}
+
+.pt4    {
+    background-image: url("https://wallpapers.com/images/hd/scotland-2048-x-1313-background-pfky1ulagyx56s83.jpg");
+}
+
+.parallax a {
+    width: 100%;
+    height: 100%;
+}
+
+#link img   {
+    margin-left: 1%;
+    height: auto;
+    width: 5%;
+}
+
+#divTextoReferencias    {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+/*------------------------------------------------------------------*/
+
+
+footer {
+    background-color: rgb(33, 37, 41);
+    color: rgb(255, 255, 255);
+    padding: 20px 0; 
+    text-align: center;
+}
+
+footer a.nav-link {
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none;
+}
+
+footer a.nav-link:hover {
+    color: rgb(200, 200, 200) !important;
+    text-decoration: underline;
+}
