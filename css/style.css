@@ -33,7 +33,6 @@ p, h1   {
 
 header a.nav-link:hover {
     color: rgb(200, 200, 200) !important;
-    /* Cinza claro no hover */
     text-decoration: underline;
 }
 
@@ -42,101 +41,37 @@ header a.nav-link:hover {
     background-size: 100%;
 }
 
+.imgs   {
+    border-radius: 8px;
+    margin-left: 7%;
+    width: 30%;
+    height: auto;
+}
+
 
 #imgMuseu {
     margin-left: 7%;
     width: 40%;
-    height: auto;
 }
 
 #imgComida1 {
     margin-left: 7%;
     width: 23%;
-    height: auto;
 }
 
-#imgEsporte {
-    margin-left: 7%;
-    width: 30%;
-    height: auto;
+#imgIdioma   {
+    border: 1.5px solid black;
 }
 
-#imgGeografia {
-    margin-left: 7%;
-    width: 30%;
-    height: auto;
+/*----------------------------------------------------*/
+.items  {
+    position: relative;
+    margin-top: 3%;
+    margin-left: 2%;
 }
-
-#imgPolitica {
-    margin-left: 7%;
-    width: 30%;
-    height: auto;
-}
-
-#imgFestas  {
-    margin-left: 7%;
-    width: 30%;
-    height: auto;
-}
-
-#imgIdioma  {
-    margin-left: 7%;
-    width: 30%;
-    height: auto;
-}
-
-#imgCuriosidade {
-    margin-left: 7%;
-    width: 30%;
-    height: auto;
-}
-
-/*----------------------*/
 
 #artes {
     position: relative;
-    margin-left: 2%;
-}
-
-#culinaria {
-    position: relative;
-    margin-top: 3%;
-    margin-left: 2%;
-}
-
-#esportes {
-    position: relative;
-    margin-top: 3%;
-    margin-left: 2%;
-}
-
-#festas {
-    position: relative;
-    margin-top: 3%;
-    margin-left: 2%;
-}
-
-#idioma {
-    position: relative;
-    margin-top: 3%;
-    margin-left: 2%;
-}
-
-#geografia {
-    position: relative;
-    margin-top: 3%;
-    margin-left: 2%;
-}
-
-#politica {
-    position: relative;
-    margin-top: 3%;
-    margin-left: 2%;
-}
-
-#curiosidade    {
-    position: relative;
-    margin-top: 3%;
     margin-left: 2%;
 }
 
@@ -391,6 +326,7 @@ h1  {
 }
 
 #link img   {
+    border: 1.5px solid black;
     margin-left: 1%;
     height: auto;
     width: 5%;
